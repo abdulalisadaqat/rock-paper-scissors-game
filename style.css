@@ -1,0 +1,111 @@
+body {
+	margin: 0px;
+}
+
+.container {
+	width: 90%;
+	margin: 0px auto;
+}
+
+h1 {
+	text-align: center;
+	margin: 0px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.wrapper {
+	width: 800px;
+	border: 2px solid blueviolet;
+	margin: auto;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.display {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.computer-choice,
+.user-choice {
+	width: 200px;
+	height: 160px;
+	border-bottom: 2px solid blueviolet;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.computer-choice img {
+	width: 60%;
+	rotate: 90deg;
+	display: none;
+}
+
+.user-choice img {
+	width: 60%;
+	rotate: -90deg;
+	transform: rotateY(180deg);
+	display: none;
+}
+
+.user-choice p,
+.computer-choice p {
+	color: blueviolet;
+	font-size: 20px;
+	text-align: center;
+}
+
+.game-status {
+	width: 100%;
+	text-align: center;
+}
+
+.game-status button {
+	border: 0px;
+	border-radius: 5px;
+	padding: 10px 30px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	background-color: blueviolet;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.game-status button:hover {
+	background-color: rgba(138, 43, 226, 0.8);
+}
+.game-status .result {
+	font-size: 48px;
+	margin: 10px 0px;
+	font-weight: bold;
+	color: blueviolet;
+}
+
+.game-status .score {
+	margin: 10px 0px;
+	font-size: 20px;
+	font-weight: bold;
+	color: blueviolet;
+}
+
+.select-move {
+	width: 500px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.select-move img {
+	width: 100px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.select-move img:hover {
+	opacity: 0.8;
+}
