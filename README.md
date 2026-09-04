@@ -40,16 +40,6 @@ Since this is a static web project, you can run it in either of these ways:
 1. Open `index.html` directly in your browser.
 2. Or serve the folder with a local static server (recommended).
 
-### Example: Python static server
-
-From the project root:
-
-```bash
-python -m http.server 8000
-```
-
-Then open `http://localhost:8000` in your browser.
-
 ## How to Play
 
 1. Click one of the three move icons to set your move.
